@@ -1,0 +1,36 @@
+{
+ "tests": [
+  {
+   "in": {
+    "phys": 100,
+    "used": 70,
+    "prov": 150
+   },
+   "v": {
+    "free": 30,
+    "overPct": 150
+   }
+  },
+  {
+   "in": {
+    "phys": 40,
+    "used": 30,
+    "prov": 48,
+    "snap": 4
+   },
+   "v": {
+    "free": 6,
+    "overPct": 120
+   }
+  },
+  {
+   "in": {
+    "phys": 10,
+    "used": 9,
+    "prov": 20,
+    "snap": 2
+   },
+   "err": "used"
+  }
+ ]
+}
